@@ -6,11 +6,12 @@ This project is designed to analyze housing data in London. It includes data pro
 
 ## Project Structure
 
-```
+```plaintext
 python-analysis-project/
 ├── analysis.py                # Main script for data analysis
 ├── Python Analysis Project.pdf # Project documentation (if applicable)
 ├── README.md                  # Project overview and instructions
+├── requirements.txt           # File listing project dependencies
 ├── data/                      # Directory containing data files
 │   ├── houses-in-london.zip   # Compressed dataset
 │   └── london_houses.csv      # CSV file with housing data
@@ -60,3 +61,7 @@ python analysis.py
 ## Data
 
 The dataset (`london_houses.csv`) contains information about housing in London. Ensure the data is properly formatted and located in the `data/` directory.
+
+## Credits
+
+The dataset used in this project is sourced from Kaggle: [Houses in London](https://www.kaggle.com/datasets/oktayrdeki/houses-in-london/data?select=london_houses.csv).
