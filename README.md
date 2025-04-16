@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is designed to analyze housing data in London. It includes data processing, analysis, and visualization to extract meaningful insights from the dataset provided.
+This project is designed to analyse housing data in London. It includes data processing, analysis, and visualisation to extract meaningful insights from the dataset provided.
 
 ## Project Structure
 
@@ -57,6 +57,18 @@ Run the analysis script:
 ```bash
 python analysis.py
 ```
+
+Choose the CLI option for the metric you want to analyse. A corresponding visualisation will be generated and displayed.
+
+## CLI Options
+
+When you run the script, you will be presented with the following options in the CLI:
+
+1. **Show Price Distribution**: Displays a histogram of house prices in London.
+2. **Show Average Price by Neighborhood**: Displays a bar plot of average house prices by neighborhood.
+3. **Show Price vs Square Meters**: Displays a scatter plot showing the relationship between property size and price.
+4. **Show Correlation Heatmap**: Displays a heatmap of correlations between numerical features in the dataset.
+5. **Exit**: Exits the CLI application.
 
 ## Data
 
